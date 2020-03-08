@@ -1,0 +1,59 @@
+[
+
+  {
+    "id": 1,
+    "question": "Before turning, you m ust signal at least?",
+    "answer_1": "100 feet in advance",
+    "answer_2": "1 block in advance",
+    "answer_3": "10 feet in advance",
+    "answer_4": "100 yards in advance",
+    "correct": "1"
+  },
+  {
+    "id": 2,
+    "question": "If your license is lost or stolen, to whom should you report this inform ation im",
+    "answer_1": "Your insurance com pany",
+    "answer_2": "The police",
+    "answer_3": "The registered owner of the car",
+    "answer_4": "None of the above",
+    "correct": "2"
+  },
+  {
+    "id": 3,
+    "question": "When it is legal to turn on red you must?",
+    "answer_1": "Turn before the light turns green",
+    "answer_2": "Make a full stop and check traffic",
+    "answer_3": "Stop and wait till the light turns green",
+    "answer_4": "Signal for right-turn and m ake the turn",
+    "correct": "2"
+
+  },
+  {
+    "id": 4,
+    "question": "Unless otherwise posted the speed lim it in a school zone is?",
+    "answer_1": "10 mph",
+    "answer_2": "15 mph",
+    "answer_3": "25 mph",
+    "answer_4": "35 mph",
+    "correct": "3"
+  },
+  {
+    "id": 5,
+    "question": "When driving in fog, what lights would you need?",
+    "answer_1": "Parking Lights",
+    "answer_2": "High Beam s",
+    "answer_3": "Low Beam s",
+    "answer_4": "Any of the above depending on visibility",
+    "correct": "3"
+  },
+
+  {
+    "id": 6,
+    "question": "flashing red light means??",
+    "answer_1": "Proced slowly with care",
+    "answer_2": "Do not go faster than 25 m ph",
+    "answer_3": "Stop, go only when safe",
+    "answer_4": "Slow Down",
+    "correct": "3"
+  }
+]
