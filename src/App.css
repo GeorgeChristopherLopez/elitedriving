@@ -14,11 +14,14 @@
     --hotrod: #DD1F2E;
     --light-blue: #326892;
 }
+html{
+    position: absolute;
+    width: 100%;
+}
 
-body, html{
+body{
     font-family: Arial, Helvetica, sans-serif;
     line-height:1.4;
-    height: 100%;
     width: 100%;
 }
 
@@ -30,7 +33,15 @@ a{
 li {
     list-style: none;
     padding: .5rem;
-   
+    cursor: pointer;
+    text-align: center;
+}
+
+li:hover{
+    background: var(--main-color);
+    padding: .5rem;
+    border-radius: 2rem;
+
 }
 h3{
     padding: 0;
@@ -69,7 +80,7 @@ h3{
 }
 
 #box {
-    height: 300px;
+    height: 200px;
 }
 
 #review-1 {

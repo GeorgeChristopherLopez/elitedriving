@@ -11,7 +11,7 @@ function Header() {
     return (
         <div style={{ position: "fixed", width: "100%"}}>
             <HeaderComponent className="header">
-            <div style={{ color: "var(--main-color)", fontFamily: "'Oswald', sans-serif",  fontSize: "1.5rem" }} className="logo">
+                <div style={{ color: "var(--main-color)", fontFamily: "'Oswald', sans-serif", fontSize: "1.5rem", padding: "1rem 0rem" }} className="logo">
                     <h3><Link style={{ color: "var(--main-color)" }} to="/">ELITE DRIVING</Link></h3>
             </div>
 
@@ -67,14 +67,16 @@ const HeaderComponent = styled.header`
   
     background: var(--secondary-color);
     display: grid;
-    grid-template-columns: 1fr  1.5fr;
+    grid-template-columns: 1fr  1fr;
     padding: 1.25rem;
-   
+    ${customMedia.greaterThan('tablet')`
+     grid-template-columns: 1fr  2fr;
+    `}
 `
 const MobileNav = styled.ul`
     display: gird;
     text-align: right;
-    padding: .5rem 1.5rem;
+    padding: 1rem 2rem 2rem 0rem;
    &:hover .dropdown-content {
             display: block;
         }
@@ -106,9 +108,9 @@ const iconStyle = {
 const DesktopNav = styled.ul`
     display: none;
     grid-template-columns: repeat(6, 1fr);
-   
+    padding: 1.5rem 1rem;
     justify-self: end;
-    grid-gap: 1.5rem;
+    grid-gap: 1.0rem;
     align-self: right;
     ${customMedia.greaterThan('tablet')`
     display:grid;      

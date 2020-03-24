@@ -54,11 +54,14 @@ const SplashDiv = styled.div`
     grid-template-columns: 1fr;
      background: #eee;
    height: 70vh;
-    padding: 10rem 2rem 5rem;
+text-align: center;
+    padding:10rem 1rem 1rem;
+    margin: 0;
  ${customMedia.greaterThan('tablet')`
         grid-template-columns: 1fr 1fr; 
  padding: 10rem 5rem 5rem;
  height: 80vh;
+text-align: left;
     `}
 
 `
