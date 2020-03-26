@@ -52,15 +52,15 @@ const customMedia = generateMedia({
 const SplashDiv = styled.div`
     display: grid;
     grid-template-columns: 1fr;
-     background: #eee;
-   height: 70vh;
-text-align: center;
-    padding:10rem 1rem 1rem;
+    background: #eee;
+  
+    text-align: center;
+    padding:10rem 1rem 10rem;
     margin: 0;
  ${customMedia.greaterThan('tablet')`
         grid-template-columns: 1fr 1fr; 
  padding: 10rem 5rem 5rem;
- height: 80vh;
+
 text-align: left;
     `}
 
