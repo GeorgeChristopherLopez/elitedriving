@@ -27,7 +27,7 @@ function QuizApp(props) {
                 <Question question={`${question.question}`} />
                 <Answers question={question} currentAnswer={currentAnswer} handleClick={handleClick} />
                 <br />
-                <button style={{ cursor: "pointer", fontSize:"1.5rem", width: "15rem", background: "var(--light-blue)", padding: "1.4rem", border: "none" }}>Submit</button>
+                <button style={{ textAlign:"center", cursor: "pointer", fontSize:"1.5rem", width: "15rem", background: "var(--light-blue)", padding: "1.4rem", border: "none" }}>Submit</button>
             </QuizCard>
          
         </QuizAppDiv>
