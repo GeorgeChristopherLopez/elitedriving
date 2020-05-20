@@ -19,26 +19,23 @@ function Header() {
                     <DropdownDiv className="dropdown-content">
                     <ul>
                         <li><Link to="/quiz">Practice</Link></li>
-                        <li>Services</li>
-                        <li>Guides</li>
-                        <li>Contact Us</li>
-                        <li >Login</li>
-                        <li >Sign Up</li>
-
-
-                        </ul>
+                        <li><Link to="/">Services</Link></li>
+                        <li><Link to="/">Guides</Link></li>
+                        <li><Link to="/">Contact Us</Link></li>
+                        <li><Link to="/">Login</Link></li>
+                        <li><Link to="/">Sign Up</Link></li>
+                    </ul>
                     </DropdownDiv>
                 </MobileNav>
 
 
-            <DesktopNav className="desktop-nav" >
-                
-                    <li><Link  to="/quiz">Practice</Link></li>
-                <li>Services</li>
-                <li>Guides</li>
-                <li>Contact Us</li>
-                <li style={loginButton}>Login</li>
-                <li style={signupButton}>Sign Up</li>
+            <DesktopNav className="desktop-nav" >         
+                <li><Link  to="/quiz">Practice</Link></li>
+                <li><Link to="/">Services</Link></li>
+                <li><Link to="/">Guides</Link></li>
+                <li><Link to="/">Contact Us</Link></li>
+                <li style={loginButton}><Link to="/">Login</Link></li>
+                    <li style={signupButton}><Link style={signupButton} to="/">Sign Up</Link></li>
             </DesktopNav>
 
 

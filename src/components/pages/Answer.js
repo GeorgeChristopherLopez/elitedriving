@@ -20,18 +20,3 @@ function Answer(props) {
 
 export default Answer;
 
-const Button = styled.button`
-padding : 1rem;
-width: 80%;
-background: var(--secondary-color);
-color: var(--light);
-font-size: 1.5rem;
-text-align: left;
-border: none;
-border-radius: 5rem;
-margin: 1rem;
-&:hover{
-background: var(--main-color);
-
-}
-`;

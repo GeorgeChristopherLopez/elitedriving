@@ -11,8 +11,8 @@
   },
   {
     "id": 2,
-    "question": "If your license is lost or stolen, to whom should you report this inform ation im",
-    "answer_1": "Your insurance com pany",
+    "question": "If your license is lost or stolen, to whom should you report this information to?",
+    "answer_1": "Your insurance company",
     "answer_2": "The police",
     "answer_3": "The registered owner of the car",
     "answer_4": "None of the above",
@@ -30,7 +30,7 @@
   },
   {
     "id": 4,
-    "question": "Unless otherwise posted the speed lim it in a school zone is?",
+    "question": "Unless otherwise posted the speed limit in a school zone is?",
     "answer_1": "10 mph",
     "answer_2": "15 mph",
     "answer_3": "25 mph",
@@ -41,8 +41,8 @@
     "id": 5,
     "question": "When driving in fog, what lights would you need?",
     "answer_1": "Parking Lights",
-    "answer_2": "High Beam s",
-    "answer_3": "Low Beam s",
+    "answer_2": "High Beams",
+    "answer_3": "Low Beams",
     "answer_4": "Any of the above depending on visibility",
     "correct": "3"
   },
@@ -51,7 +51,7 @@
     "id": 6,
     "question": "flashing red light means??",
     "answer_1": "Proced slowly with care",
-    "answer_2": "Do not go faster than 25 m ph",
+    "answer_2": "Do not go faster than 25 mph",
     "answer_3": "Stop, go only when safe",
     "answer_4": "Slow Down",
     "correct": "3"
