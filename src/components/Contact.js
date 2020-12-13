@@ -19,17 +19,17 @@ function Contact() {
                     </p>
                         <div className="input-bar">
                             <input type="email" />
-                            <p href="#" className="btn-subscribe">Subscribe</p>
+                            <a href="/" className="btn-subscribe">Subscribe</a>
                         </div>
                     </div>
                     <div id="links" className="col-xs-12 col-lg-3">
                         <ul>
                             <li>Useful Links</li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Vehicles</a></li>
-                            <li><a href="#">Guides</a></li>
-                            <li><a href="#">Practice Exam</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="/">About</a></li>
+                            <li><a href="/">Vehicles</a></li>
+                            <li><a href="/">Guides</a></li>
+                            <li><a href="/">Practice Exam</a></li>
+                            <li><a href="/">Contact</a></li>
                         </ul>
                     </div>
                     <div id="address" className="col-xs-12 col-lg-3">

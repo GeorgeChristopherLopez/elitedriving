@@ -192,7 +192,7 @@ input {
 .btn-subscribe {
     
     background: var(--main-color);
-   
+    padding: 1.5em;
 }
 
 
@@ -213,7 +213,12 @@ footer {
         grid-template-columns: 1fr 1fr 1fr 1fr;
 
     }
-
+    li:hover{
+        background: var(--main-color);
+        padding: .5rem;
+        border-radius: 2rem;
+    
+    }
  
     ul.navbar-nav li {
         margin: auto;
@@ -228,12 +233,20 @@ footer {
     .inner {
         padding: 5rem;
     }
+  
+ 
 }
 
 
 @media screen and (min-width: 400px) {
     .inner {
         padding: 4rem;
+    }
+    li:hover{
+        background: var(--main-color);
+        padding: .5rem;
+        border-radius: 0rem;
+    
     }
 }
 

@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react';
+import React, {  useState } from 'react';
 import styled from 'styled-components';
 import ProgressBar from './ProgressBar';
 import Question from './Question';
@@ -132,7 +132,7 @@ export default QuizApp;
 
 
 const QuizAppDiv = styled.div`
-    padding: 10rem 0rem;
+    padding: 12rem 0;
     margin-top: auto;
     background: var(--main-color);
     text-align: center;
@@ -142,7 +142,7 @@ const QuizAppDiv = styled.div`
 
 const QuizCard = styled.div`
 
-    width:75%;
+    width:60%;
     max-width: 1260px;
     margin: 1rem auto;
     background: #eee;
@@ -151,19 +151,3 @@ const QuizCard = styled.div`
 
 
 `
-const SubmitButton = styled.button`
-padding : 1.4rem;
-width: 12rem;
-cursor: pointer;
-background: var(--main-color);
-color: var(--light);
-font-size: 1.5rem;
-text-align: center;
-border: none;
-border-radius: 5rem;
-margin: 1rem;
-&:hover{
-background: var(--secondary-color);
-
-}
-`;
